@@ -3,6 +3,8 @@ from datetime import datetime
 from rest_framework import mixins
 from rest_framework import generics
 
+from drf_yasg.utils import swagger_auto_schema
+
 from common.filters import RecordIsActiveFilterBackend
 
 from container_type.models import ContainerType
